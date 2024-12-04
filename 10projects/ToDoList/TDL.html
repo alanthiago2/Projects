@@ -1,0 +1,35 @@
+<!-- Step 1: Create a basic structure for the To-Do list application -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="TDL.css">
+ </head>
+ <body>
+    <h1>To-Do List</h1>
+<!-- Step 3: Create an input field where users can type in their new task -->
+    <input type="text" id="taskInput" placeholder="Enter a task">
+<!-- Step 4: Add a button that, when clicked, will add the task to the list -->    
+    <button id="addTask">Add Task</button>
+<!-- Step 5: Create an empty unordered list (UL) where tasks will be displayed -->
+    <ul id="taskList"></ul>
+<!-- Step 6: Add a dropdown to filter tasks by their completion status -->
+    <select id="statusFilter">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="incomplete">Incomplete</option>
+    </select>    
+<script src="TDL.js"></script>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+

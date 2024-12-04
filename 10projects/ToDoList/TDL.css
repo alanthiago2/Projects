@@ -1,0 +1,84 @@
+/* Step 1: Style the body to center content and set background color */
+
+body {
+    /* Step 1.1: Set the background color */
+    background-color: rgb(31, 141, 192);
+    /* Step 1.2: Use flexbox to center content */
+    display: flex; /* Corrected 'flex' to 'display: flex;' */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+/* Step 2: Style the header, making it bold and centered */
+
+h1 {
+    
+    /* Step 2.1: Set font size and weight */
+    font-weight: bold; /* Corrected 'weight' to 'font-weight' */
+    /* Step 2.2: Center the title on the page */
+    text-align: center;
+    color: white; /* Optional: Ensure text color is visible on background */
+    margin-right: 30px; /* Added margin to create space between the header and the task list */
+
+}
+
+/* Step 3: Style the input field for adding new tasks */
+
+#task-input {
+    /* Step 3.1: Set width and padding */
+    width: 80%; /* Adjust width to be less than 100% for some padding */
+    padding: 10px;
+    
+    /* Step 3.2: Add border and rounded corners */
+    border: none; /* Corrected '0caps' to 'none' */
+    border-radius: 10px; /* Ensure rounded corners */
+}
+
+/* Step 4: Style the add task button to make it stand out */
+
+#add-task {
+    /* Step 4.1: Set background color and font size */
+    background-color: rgb(31, 141, 192);
+    font-size: medium;
+    color: white; /* Text color for better visibility */
+    padding: 10px 20px; /* Add padding for better button size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+#add-task:hover {
+    /* Step 4.2: Add hover effect for interaction */
+    background-color: rgb(25, 112, 148); /* Slightly darker shade on hover */
+}
+
+/* Step 5: Style the task list to display tasks neatly */
+
+#task-list {
+    /* Step 5.1: Remove default list styles */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    /* Step 5.2: Add margin and padding */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white; /* Optional: Add background for contrast */
+    border-radius: 5px; /* Rounded corners for the task list */
+}
+
+/* Step 6: Style the filter dropdown menu */
+
+#filter {
+    /* Step 6.1: Set width, padding, and border */
+    width: 80%;
+    padding: 10px;
+    border: none;
+    
+    /* Step 6.2: Add styling to make it consistent with other elements */
+    background-color: rgb(31, 141, 192);
+    color: white; /* Ensure text is visible */
+    border-radius: 5px; /* Rounded corners */
+}
